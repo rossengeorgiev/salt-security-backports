@@ -7,6 +7,10 @@ Patches in this repo address the following CVEs:
 
 * CVE-2020-11651 & CVE-2020-11652 - https://labs.f-secure.com/advisories/saltstack-authorization-bypass
 
+Bugfixes:
+
+* fix typo `_minion_runner` -> `minion_runner`. See: https://docs.saltstack.com/en/latest/topics/releases/3000.2.html#known-issue
+
 # Check if your salt-master is vulnerable
 
 Check script needs to be ran locally on your salt-master as `root`
