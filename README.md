@@ -10,6 +10,7 @@ Patches in this repo address the following CVEs:
 Bugfixes:
 
 * fix typo `_minion_runner` -> `minion_runner`. See: https://docs.saltstack.com/en/latest/topics/releases/3000.2.html#known-issue
+* fix type `_find_file_and_stat` -> `_find_hash_and_stat`. See https://github.com/rossengeorgiev/salt-security-backports/issues/1
 
 # Check if your salt-master is vulnerable
 
