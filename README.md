@@ -3,6 +3,8 @@
 
 # Backported security patches for unspported salt versions
 
+[![Build Status](https://travis-ci.org/rossengeorgiev/salt-security-backports.svg?branch=master)](https://travis-ci.org/rossengeorgiev/salt-security-backports)
+
 Patches in this repo address the following CVEs:
 
 * CVE-2020-11651 & CVE-2020-11652 - https://labs.f-secure.com/advisories/saltstack-authorization-bypass
