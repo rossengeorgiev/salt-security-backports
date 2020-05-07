@@ -1,7 +1,7 @@
 
 ⚠⚠  **APPLY THESE PATCHES AT YOUR OWN RISK** ⚠⚠
 
-# Backported security patches for unspported salt versions
+# Backported security patches for unsupported salt versions
 
 [![Build Status](https://travis-ci.org/rossengeorgiev/salt-security-backports.svg?branch=master)](https://travis-ci.org/rossengeorgiev/salt-security-backports)
 
