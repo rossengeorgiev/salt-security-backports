@@ -3,7 +3,7 @@ dist: xenial
 install:
     - make install
 before_script:
-    - make test
+    - make test || true
 script:
     - make patch
     - make test
