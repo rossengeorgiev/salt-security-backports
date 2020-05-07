@@ -17,14 +17,35 @@ jobs:
       env: SALTVER=2017.7.8
     - name: Salt 2018.3.5
       env: SALTVER=2018.3.5
+    - name: Salt 2018.3.5 (python3)
+      env:
+        - SALTVER=2018.3.5
+        - SALTREPO=py3
+        - PYEXEC=python3
 # official version with CVE patches included
     - name: Salt 2019.2.4
       env: SALTVER=2019.2.4
       before_script: []
       script:
         - make test
+    - name: Salt 2019.2.4 (python3)
+      env:
+        - SALTVER=2019.2.4
+        - SALTREPO=py3
+        - PYEXEC=python3
+      before_script: []
+      script:
+        - make test
     - name: Salt 3000.2
       env: SALTVER=3000.2
+      before_script: []
+      script:
+        - make test
+    - name: Salt 3000.2 (python3)
+      env:
+        - SALTVER=3000.2
+        - SALTREPO=py3
+        - PYEXEC=python3
       before_script: []
       script:
         - make test
