@@ -1,5 +1,6 @@
+Official patches for previous versions can be requested at: https://www.saltstack.com/lp/request-patch-april-2020/
 
-⚠⚠  **APPLY THESE PATCHES AT YOUR OWN RISK** ⚠⚠
+⚠ Patches here are custom, and may differ from official ones ⚠
 
 # Backported security patches for unsupported salt versions
 
