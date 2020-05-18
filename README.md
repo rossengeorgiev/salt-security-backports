@@ -14,6 +14,10 @@ Additionally include the following bugfixes:
 
 * fix typo `_minion_runner` -> `minion_runner`. See: https://docs.saltstack.com/en/latest/topics/releases/3000.2.html#known-issue
 * fix type `_find_file_and_stat` -> `_find_hash_and_stat`. See https://github.com/rossengeorgiev/salt-security-backports/issues/1
+* removal of `run_func` from whitelist
+* missing `import salt.utils.verify`
+
+Above fixed are included in latest release of SaltStack, specifically `v2019.2.5` and `v3000.3`.
 
 # Check if your salt-master is vulnerable
 
